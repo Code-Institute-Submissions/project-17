@@ -1,1 +1,30 @@
-@media only screen and (min-width: 960px) {}
+@media only screen and (min-width: 960px) {
+
+    /* fonts */
+
+    @font-face {
+      font-family: apercu-light;
+      src: url(fonts/apercu/apercu-light.otf);
+    }
+    
+    @font-face {
+      font-family: apercu-regular;
+      src: url(fonts/apercu/apercu-regular.otf);
+    }
+    
+    @font-face {
+      font-family: apercu-bold;
+      src: url(fonts/apercu/apercu-bold.otf);
+    }
+    
+    @font-face {
+      font-family: apercu-medium;
+      src: url(fonts/apercu/apercu-medium.otf);
+    }
+    
+    @font-face {
+      font-family: cormorant-bold;
+      src: url(fonts/cormorant/cormorant-bold.otf);
+    }
+
+}
