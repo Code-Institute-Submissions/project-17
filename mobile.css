@@ -221,4 +221,58 @@
       color: white;
       transition-duration: 0.3s;
     }
+
+
+  /* newsletter section */
+    /* gives button style */
+    .newsletter-submit-button {
+      border-radius: 30px;
+      border: black 1px solid;
+      padding: 10px 30px;
+      color: black;
+      background-color: transparent;
+      font-family: cormorant-bold;
+    }
+
+    .newsletter-submit-button:hover {
+      border-radius: 30px;
+      background-color: black;
+      border: 1px solid black;
+      padding: 10px 30px;
+      color: white;
+      transition-duration: 0.3s;
+    }
+
+  .email-field {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+    /* gives form style */
+    .form-control {
+      font-size: 0.8rem;
+      color: #babdc0;
+      text-align: center;
+      border: 0;
+      border-bottom: 1px solid #babdc0;
+      border-radius: 0;
+      width: 250px;
+      background-color: transparent;
+    }
+
+    /* allows the form to change color when active */
+    .form-control:focus {
+      color: black;
+      border: 0;
+      border-bottom: 1px solid black;
+      width: 250px;
+      box-shadow: none;
+      background-color: transparent;
+    }
+
+  .newsletter {
+    background-color: #f1f1f1;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
 }
