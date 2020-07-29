@@ -1,30 +1,54 @@
 @media only screen and (max-width: 960px) {
 
-    /* fonts */
+  /* fonts */
 
-    @font-face {
+  @font-face {
+    font-family: apercu-light;
+    src: url(fonts/apercu/apercu-light.otf);
+  }
+  
+  @font-face {
+    font-family: apercu-regular;
+    src: url(fonts/apercu/apercu-regular.otf);
+  }
+  
+  @font-face {
+    font-family: apercu-bold;
+    src: url(fonts/apercu/apercu-bold.otf);
+  }
+  
+  @font-face {
+    font-family: apercu-medium;
+    src: url(fonts/apercu/apercu-medium.otf);
+  }
+  
+  @font-face {
+    font-family: cormorant-bold;
+    src: url(fonts/cormorant/cormorant-bold.otf);
+  }
+
+
+  /* general styling */
+
+  body {
       font-family: apercu-light;
-      src: url(fonts/apercu/apercu-light.otf);
-    }
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+      padding: 0px;
+      overflow-x: hidden;
+  }
     
-    @font-face {
+  b {
       font-family: apercu-regular;
-      src: url(fonts/apercu/apercu-regular.otf);
-    }
+  }
     
-    @font-face {
+  strong {
       font-family: apercu-bold;
-      src: url(fonts/apercu/apercu-bold.otf);
-    }
-    
-    @font-face {
-      font-family: apercu-medium;
-      src: url(fonts/apercu/apercu-medium.otf);
-    }
-    
-    @font-face {
-      font-family: cormorant-bold;
-      src: url(fonts/cormorant/cormorant-bold.otf);
-    }
+  }
+
+  button:focus {
+      outline: 0;
+  }
 
 }
