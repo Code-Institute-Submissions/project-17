@@ -183,4 +183,49 @@
             color: black;
             transition-duration: 0.3s;
         }
+
+
+    /* our categories section */    
+    .section-title-categories {
+    padding-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    display: block;
+    }
+
+    .card {
+    border: 0;
+    }
+
+        /* adds white spaces at the sides */
+        .row, .row-cols-1, .row-cols-md-2 {
+        padding-left: 5%;
+        padding-right:5%;
+        margin-right: 0;
+        margin-bottom: 10%;
+        }
+
+        /* gives buttons style */
+        .product-shop-now-button {
+        display:block;
+        border-radius: 30px;
+        border: black 1px solid;
+        padding: 10px 30px;
+        color: black;
+        background-color: transparent;
+        font-family: cormorant-bold;
+        margin-top: 1rem;
+        }
+
+        .product-shop-now-button:hover {
+        border-radius: 30px;
+        background-color: black;
+        border: 1px solid black;
+        padding: 10px 30px;
+        color: white;
+        transition-duration: 0.3s;
+        }    
+
+
+
 }
