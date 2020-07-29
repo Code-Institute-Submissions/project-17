@@ -278,6 +278,11 @@
 
 
   /* instagram section */
+
+    /* hides instagram for mobile */
+    .desktop-instagram {
+      display: none;
+    }
     /* gives title style */
     .instagram-header {
       padding-left: 5%;
@@ -308,5 +313,62 @@
     border: 0;
     padding: 2px;
     border-radius: 0;
+  }
+
+  /* footer menu section */
+    /* hides footer menu section for desktop */
+    .desktop-footer-menu {
+      display: none;
+    }
+
+  .collapsible {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-family: apercu-medium;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: white;
+  }
+  
+  .content {
+    padding: 0 0 1rem 18px;
+    display: none;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  .collapsible:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+  
+  .content a {
+    display: block;
+    color: black;
+  }
+  
+  .content a:hover {
+    text-decoration: none;
+    color: #babdc0;
+    transition-duration: 0.2s;
+  }
+  
+  .mobile-footer-menu {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 }

@@ -317,5 +317,38 @@
     }
 
 
+    /* footer menu section */
+        /* hides footer menu section for mobile */
+        .mobile-footer-menu {
+            display: none;
+        }
+
+    .desktop-footer-menu {
+        display: flex;
+        padding: 5%;
+        background-color: black;
+    }
+
+    .customer-care, .about-us, .connect {
+        padding-right: 20%;
+    }
+
+    .desktop-footer-menu a {
+        display: block;
+        color: white;
+    }
+
+    .desktop-footer-menu b {
+        display: block;
+        color: white;
+    }
+
+    .desktop-footer-menu a:hover {
+        text-decoration: none;
+        color: #dddddd;
+        transition-duration: 0.2s;
+    }
+
+
 
 }
