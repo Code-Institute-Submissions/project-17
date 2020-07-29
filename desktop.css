@@ -65,5 +65,51 @@
             border-color: #e1e1e1;
             color: black;
         }
-  
+
+
+    /* hero section */
+        /* overlays image and text, gives style */
+        .hero-container {
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0;
+        }
+        
+        .hero-image-container img {
+            object-fit: cover;
+        }
+        
+        .hero-image-container {
+            height: 670px;
+            overflow: hidden;
+        }
+        
+        .text-block {
+            position: absolute;
+            bottom: 0px;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.9);
+            color: black;
+            padding: 35px 0px;  
+        }
+        
+        .hero-shop-now-button {
+            border-radius: 30px;
+            background-color: black;
+            border: black 1px solid;
+            padding: 10px 30px;
+            color: white;
+            font-family: cormorant-bold;
+            transition-duration: 0.4s;
+        }
+        
+        .hero-shop-now-button:hover {
+           border-radius: 30px;
+           background-color: transparent;
+           border: 1px solid black;
+           padding: 10px 30px;
+           color: black;
+           transition-duration: 0.3s;
+        }
 }
