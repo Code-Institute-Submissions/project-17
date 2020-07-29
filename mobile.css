@@ -371,4 +371,15 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
+
+
+  /* footer copyright */
+  .copyright {
+    color: white;
+    font-size: 0.8rem;
+    background-color: black;
+    padding: 1rem 0;
+    text-align: center;
+  }
+
 }

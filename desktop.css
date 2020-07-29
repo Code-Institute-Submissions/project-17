@@ -350,5 +350,14 @@
     }
 
 
+    /* footer copyright */
+    .copyright {
+        color: white;
+        font-size: 0.8rem;
+        background-color: black;
+        padding-bottom: 2rem;
+        padding-left: 5%;
+    }
+
 
 }
