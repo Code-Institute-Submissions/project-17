@@ -280,5 +280,42 @@
     }
 
 
+    /* instagram section */
+        /* hides instagram for mobile */
+        .mobile-instagram {
+            display: none;
+        }
+
+        /* allows content to be in a single row */
+        .desktop-instagram {
+            display: flex;
+            padding-left: 5%;
+            padding-right: 5%;
+            margin-bottom: 10%;
+        }
+
+        /* gives title style */
+        .instagram-header {
+            padding-left: 5%;
+            margin-top: 5%;
+            margin-bottom: 3%;
+        }
+
+        .instagram-header a {
+            color: black;
+        }
+
+        /* adds hover effect to "@rewaremodern" */
+        .instagram-header a:hover {
+            text-decoration: none;
+        }
+
+    .img-thumbnail {
+        border: 0;
+        padding: 2px;
+        border-radius: 0;
+    }
+
+
 
 }

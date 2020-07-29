@@ -275,4 +275,38 @@
     padding-top: 10%;
     padding-bottom: 10%;
   }
+
+
+  /* instagram section */
+    /* gives title style */
+    .instagram-header {
+      padding-left: 5%;
+      margin-top: 10%;
+      margin-bottom: 5%;
+    }
+    
+    .instagram-header a {
+      color: black;
+    }
+  
+    /* adds hover effect to "@rewaremodern" */
+    .instagram-header a:hover {
+      text-decoration: none;
+    }
+  
+  .mobile-instagram a {
+    width: 50%;
+    height: auto;
+  }
+  
+    /* splits into three rows */
+    mobile-instagram, .first-row, .second-row, .third-row {
+      display: flex;
+    }
+  
+  .img-thumbnail {
+    border: 0;
+    padding: 2px;
+    border-radius: 0;
+  }
 }
