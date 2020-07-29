@@ -53,6 +53,7 @@
 
 
   /* announcement bar */
+
     /* removes border radius and margin */
     .alert {
       border-radius: 0;
@@ -108,5 +109,75 @@
       transition-duration: 0.3s;
     }
 
+ 
+  /* featured products section */    
+
+    /* gives header style */
+    .featured-header {
+      padding-left: 5%;
+      margin-top: 10%;
+      margin-bottom: 5%;
+    }
     
+    /* allows content to be horizontally scrollable */
+    .featured-card {
+      background-color: #fff;
+      min-width: 100%;
+      min-height: 200px;
+      display: flex;
+      overflow-x: auto;
+      padding-left: 5%;
+      margin-bottom: 10%;
+    }
+    
+    /* removes scrollbar */
+    .featured-card::-webkit-scrollbar {
+      display: none;
+    }
+    
+    /* resizes individual containers */
+    .featured-card-content {
+      min-width: 60%;
+      height: auto;
+      margin: 5px;
+    }
+    
+    /* breaks up texts and buttons */
+    .featured-card-content a, button {
+      display: block;
+    }
+  
+  .featured-card-content p {
+    margin-bottom: 0;
+  }
+  
+  .featured-card-content img {
+    width: 100%;
+  }
+  
+  .featured-title {
+    margin-top: 5%;
+  }
+
+    /* gives buttons style */
+    .featured-card-content button {
+      border-radius: 30px;
+      background-color: black;
+      border: black 1px solid;
+      padding: 10px 30px;
+      color: white;
+      font-family: cormorant-bold;
+      transition-duration: 0.4s;
+      margin-top: 5%;
+    }
+
+    .featured-card-content button:hover {
+      border-radius: 30px;
+      background-color: transparent;
+      border: 1px solid black;
+      padding: 10px 30px;
+      color: black;
+      transition-duration: 0.3s;
+    }
+
 }
