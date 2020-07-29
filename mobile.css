@@ -31,24 +31,40 @@
   /* general styling */
 
   body {
-      font-family: apercu-light;
-      width: 100%;
-      height: 100%;
-      margin: 0px;
-      padding: 0px;
-      overflow-x: hidden;
+    font-family: apercu-light;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
   }
     
   b {
-      font-family: apercu-regular;
+    font-family: apercu-regular;
   }
     
   strong {
-      font-family: apercu-bold;
+    font-family: apercu-bold;
   }
 
   button:focus {
-      outline: 0;
+    outline: 0;
   }
+
+
+  /* announcement bar */
+    /* removes border radius and margin */
+    .alert {
+      border-radius: 0;
+      margin-bottom: 0rem;
+    }
+  
+    /* gives style to background, border and font */
+    .alert-warning {
+      background-color: #f1f1f1;
+      border-color: #e1e1e1;
+      color: black;
+    }
+
 
 }
